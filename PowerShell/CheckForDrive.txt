@@ -1,0 +1,8 @@
+If((Test-Path 'R:\\') -eq $true) {
+$mymessage = "This exists"
+$mymessage
+}
+Else {
+$mymessage = "This path doesn't exist"
+$mymessage
+}
